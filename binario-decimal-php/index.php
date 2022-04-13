@@ -19,6 +19,7 @@ return $resultado;
 
 function binarioDecimal(){
 
+  // Coverter binário para decimal
     echo bindec('1100110101') . "\n"; // 821
     echo bindec('10000000000') . "\n"; // 1024
     echo bindec('10000011') . "\n"; // 131
